@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 	int n;
-	printf("");
+	printf("Enter number: ");
 	scanf("%d",&n);
 	if(n>=1){
 		//New Line
