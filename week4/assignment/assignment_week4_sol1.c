@@ -11,5 +11,11 @@ void main(){
 	int fact;
 	printf("Input factorial: ");
 	scanf("%d",&fact);
-	printf("%d! = %d",fact,Factorial(fact));
+	if(fact < 0){
+		printf("Error! Input zero or positive integer only!");
+	}
+	else{
+		printf("%d! = %d",fact,Factorial(fact));
+	}
+	
 }
