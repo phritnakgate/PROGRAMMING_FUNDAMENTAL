@@ -6,7 +6,10 @@ void main(){
 	printf("Height = ");
 	scanf("%f",&h);
 	if(h <= 1){
-		printf("Please input more than 1!");
+		total = h;
+		i = 1;
+		printf("Distance = %.2f \n",total);
+		printf("Bounce count = %d",i);
 	}else{
 		total = h;
 		for(i=0;h > 1;i++){
