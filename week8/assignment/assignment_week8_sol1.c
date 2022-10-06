@@ -1,19 +1,19 @@
 #include<stdio.h>
 #include<string.h>
+#include<ctype.h>
 
 void main(){
 	char str[100];
-	int l;
+	int i,l;
 	printf("Input string: ");
 	scanf("%s",&str);
 	l = strlen(str);
-	for(int i=0;i < l;i++){
-		if(str[i] >= 65 && str[i] <= 90){
-			str[i]+=32;
-		}
-		else if(str[i] >= 97 && str[i] <= 122){
-			str[i]-=32;
+	for(i=0;i<l;i++){
+		if(isupper(str[i]) != 0){
+			str[i] = tolower(str[i]);
+		}else{
+			str[i] = toupper(str[i]);
 		}
 	}
-	printf("%s",str);
+	printf("Output: %s",str);
 }
