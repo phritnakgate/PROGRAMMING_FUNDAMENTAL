@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\มหาลัย ปี1\01076103_Programming Fundamental\Sources&Lab\week8\lab\Lab08_TextMode04\main.cpp(122,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\มหาลัย ปี1\01076103_Programming Fundamental\Sources&Lab\week8\lab\Lab08_TextMode04\main.cpp(134,48): warning C4805: '==': unsafe mix of type 'BOOL' and type 'bool' in operation
+  Lab08_TextMode04.vcxproj -> D:\มหาลัย ปี1\01076103_Programming Fundamental\Sources&Lab\week8\lab\Lab08_TextMode04\x64\Debug\Lab08_TextMode04.exe
